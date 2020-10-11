@@ -1,7 +1,7 @@
 public class BankService {
 
     int cashBack(int percent, int sum) {
-        int limit = 3_000;
+        int limit = 10_000;
         int result = sum * percent / 100;
         if (result > limit) {
             return limit;
